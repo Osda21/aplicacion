@@ -18,17 +18,13 @@
   </div>
   <div class="mb-3">
     <label for="nombre" class="form-label">nombre</label>
-    <input type="password" class="form-control" id="nombre">
+    <input type="text" class="form-control" id="nombre">
   </div>
   <div class="mb-3">
     <label for="detalle" class="form-label">detalle</label>
-    <input type="password" class="form-control" id="detalle">
+    <input type="text" class="form-control" id="detalle">
   </div>
-  <div class="mb-3 form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-  </div>
-  <button type="submit" class="btn btn-primary">reguistrar</button>
+  <button type="submit" class="btn btn-primary">registrar</button>
 </form>
 </body>
 </html>
