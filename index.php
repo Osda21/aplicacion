@@ -10,19 +10,19 @@
 
 </head>
 <body>
-<form>
+<form method="post" action="registrar.php">
   <div class="mb-3">
     <label for="identificador" class="form-label">identificacion</label>
-    <input type="email" class="form-control" id="identificador" aria-describedby="emailHelp">
+    <input type="text" class="form-control" id="identificador" name="identificador" aria-describedby="emailHelp">
     <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
   </div>
   <div class="mb-3">
     <label for="nombre" class="form-label">nombre</label>
-    <input type="text" class="form-control" id="nombre">
+    <input type="text" class="form-control" id="nombre" name="nombre">
   </div>
   <div class="mb-3">
     <label for="detalle" class="form-label">detalle</label>
-    <input type="text" class="form-control" id="detalle">
+    <input type="text" class="form-control" id="detalle" name="detalle">
   </div>
   <button type="submit" class="btn btn-primary">registrar</button>
 </form>
